@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def initialize(${1:args})${1/(\A\s*,\s*\Z)|,?\s*([A-Za-z_][a-zA-Z0-9_]*)\s*(=[^,]*)?(,\s*|$)/(?2:\n  @$2 = $2)/g}$0
+end</string>
+	<key>name</key>
+	<string>initialize method</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>defi</string>
+	<key>uuid</key>
+	<string>58E46A6D-B8BC-4A96-96BB-5033801182F6</string>
+</dict>
+</plist>

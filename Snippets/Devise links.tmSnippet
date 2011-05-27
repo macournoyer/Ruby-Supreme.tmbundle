@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;p class="menu"&gt;
+  &lt;% if user_signed_in? %&gt;
+    &lt;%= link_to('Edit registration', edit_user_registration_path) %&gt;
+  &lt;% else %&gt;
+    &lt;%= link_to('Register', new_user_registration_path)  %&gt;
+  &lt;% end %&gt;
+  &lt;% if user_signed_in? %&gt;
+    &lt;%= link_to('Logout', destroy_user_session_path) %&gt;
+  &lt;% else %&gt;
+    &lt;%= link_to('Login', new_user_session_path) %&gt;
+  &lt;% end %&gt;
+&lt;/p&gt;</string>
+	<key>name</key>
+	<string>Devise links</string>
+	<key>scope</key>
+	<string>text.html.ruby</string>
+	<key>tabTrigger</key>
+	<string>devise</string>
+	<key>uuid</key>
+	<string>901B74B6-1367-4561-BD1D-1C79C27F8461</string>
+</dict>
+</plist>

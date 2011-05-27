@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="field"&gt;
+  &lt;%= f.label :${1:attribute} %&gt;
+  &lt;%= f.text_field :${1:attribute} %&gt;
+&lt;/div&gt;</string>
+	<key>name</key>
+	<string>Form field text_field</string>
+	<key>scope</key>
+	<string>text.html.ruby</string>
+	<key>tabTrigger</key>
+	<string>f</string>
+	<key>uuid</key>
+	<string>0AF0E4EC-C492-4BA8-A411-58BAAB4AC589</string>
+</dict>
+</plist>

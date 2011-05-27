@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>1611C5D2-EB56-472A-9744-3FE2D0B0063C</string>
+			<string>9063B662-06DA-4375-8CA8-39128C6CF3F5</string>
+			<string>0AF0E4EC-C492-4BA8-A411-58BAAB4AC589</string>
+			<string>4C2A4D80-1DBC-4FDA-95CD-B77649CF7523</string>
+			<string>5243AEAA-A907-4749-9161-1E9D416F333D</string>
+			<string>48CAACE1-17A2-4FC6-8260-98731444CC3C</string>
+			<string>627F686E-BB62-4918-83A0-A8C4E31AB984</string>
+			<string>0157BFE9-34E4-40D3-9645-3607A80267F3</string>
+			<string>58E46A6D-B8BC-4A96-96BB-5033801182F6</string>
+			<string>887D9467-EE49-403F-8BCB-606B317C672F</string>
+			<string>901B74B6-1367-4561-BD1D-1C79C27F8461</string>
+			<string>C5BC3692-68AC-46C2-9ADC-7418309834E2</string>
+			<string>BC6DDD12-C2F3-401D-97EA-F3ADF0BE59AA</string>
+			<string>B36092F8-EA5C-4706-B340-5654397A3299</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>Ruby Supreme</string>
+	<key>ordering</key>
+	<array>
+		<string>1611C5D2-EB56-472A-9744-3FE2D0B0063C</string>
+		<string>9063B662-06DA-4375-8CA8-39128C6CF3F5</string>
+		<string>4C2A4D80-1DBC-4FDA-95CD-B77649CF7523</string>
+		<string>5243AEAA-A907-4749-9161-1E9D416F333D</string>
+		<string>48CAACE1-17A2-4FC6-8260-98731444CC3C</string>
+		<string>0AF0E4EC-C492-4BA8-A411-58BAAB4AC589</string>
+		<string>627F686E-BB62-4918-83A0-A8C4E31AB984</string>
+		<string>0157BFE9-34E4-40D3-9645-3607A80267F3</string>
+		<string>58E46A6D-B8BC-4A96-96BB-5033801182F6</string>
+		<string>887D9467-EE49-403F-8BCB-606B317C672F</string>
+		<string>901B74B6-1367-4561-BD1D-1C79C27F8461</string>
+		<string>C5BC3692-68AC-46C2-9ADC-7418309834E2</string>
+		<string>BC6DDD12-C2F3-401D-97EA-F3ADF0BE59AA</string>
+		<string>B36092F8-EA5C-4706-B340-5654397A3299</string>
+	</array>
+	<key>uuid</key>
+	<string>4E4D154E-423D-4478-9F26-A0B4C31B84D4</string>
+</dict>
+</plist>

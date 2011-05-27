@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require File.dirname(__FILE__) + '/test_helper'
+require "${1:${TM_FILENAME/(?:_test\.rb)?//g}}"
+
+class ${2:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:_test\.rb)?/(?2::\u$1)/g}}Test &lt; Test::Unit::TestCase
+  $0
+end</string>
+	<key>name</key>
+	<string>Unit test case</string>
+	<key>scope</key>
+	<string>source.ruby</string>
+	<key>tabTrigger</key>
+	<string>tc</string>
+	<key>uuid</key>
+	<string>BC6DDD12-C2F3-401D-97EA-F3ADF0BE59AA</string>
+</dict>
+</plist>

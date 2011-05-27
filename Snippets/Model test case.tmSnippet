@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require 'test_helper'
+
+class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} &lt; ActiveSupport::TestCase
+  $0
+end</string>
+	<key>name</key>
+	<string>Model test case</string>
+	<key>scope</key>
+	<string>source.ruby.rails</string>
+	<key>tabTrigger</key>
+	<string>tc</string>
+	<key>uuid</key>
+	<string>C5BC3692-68AC-46C2-9ADC-7418309834E2</string>
+</dict>
+</plist>
